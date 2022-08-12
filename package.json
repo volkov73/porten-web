@@ -1,0 +1,22 @@
+{
+  "name": "porten-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkov73/porten-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volkov73/porten-web/issues"
+  },
+  "homepage": "https://github.com/volkov73/porten-web#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
