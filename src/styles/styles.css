@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.top-line > div {
+    float: left;
+    background: black;
+    height: 44px;
+    width: 50%;
+    box-sizing: border-box;
+    color: gray;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.phone-pict {
+    position: absolute;
+    width: 13.36px;
+    height: 13.33px;
+    left: 170px;
+    right: 400px;
+    top: 22px;
+    bottom: 0;
+}
+
+.vector-pict {
+    position: absolute;
+    width: 13.36px;
+    height: 13.33px;
+    left: 950px;
+    right: 400px;
+    top: 22px;
+    bottom: 0;
+}
+
+.vector2-pict {
+    position: absolute;
+    width: 13.36px;
+    height: 13.33px;
+    left: 946px;
+    right: 400px;
+    top: 22px;
+    bottom: 0;
+}
