@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 
-.top-line > div {
+.top-line {
     float: left;
     background: black;
     height: 44px;
@@ -17,31 +17,34 @@
 }
 
 .phone-pict {
-    position: absolute;
-    width: 13.36px;
-    height: 13.33px;
-    left: 170px;
-    right: 400px;
-    top: 22px;
-    bottom: 0;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: -5px;
+    top: 3px;
+    
 }
 
 .vector-pict {
-    position: absolute;
-    width: 13.36px;
-    height: 13.33px;
-    left: 950px;
-    right: 400px;
-    top: 22px;
-    bottom: 0;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: 11px;
+    top: 3px;
 }
 
 .vector2-pict {
-    position: absolute;
-    width: 13.36px;
-    height: 13.33px;
-    left: 946px;
-    right: 400px;
-    top: 22px;
-    bottom: 0;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    left: -10px;
+    top: 3px;
 }
+
+a:link {
+    color: gray;
+  }
+  
+a:visited {
+    color: #860697;
+  }
