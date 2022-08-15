@@ -2,42 +2,43 @@
 
 
 .top-line {
-    float: left;
+    display: flex;
     background: black;
     height: 44px;
-    width: 50%;
-    box-sizing: border-box;
+    width: 100%;
     color: gray;
-    text-align: center;
     font-family: 'PT Sans', sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px;
+}
+
+.left-side {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.right-side {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    
 }
 
 .phone-pict {
-    position: relative;
+    margin: auto;
+    padding-right: 10px;
     width: 14px;
     height: 14px;
-    left: -5px;
-    top: 3px;    
 }
 
-.open_door {
-    position: relative;
+.log-in {
+    margin: auto;
+    margin-right: 10px;
     width: 14px;
     height: 14px;
-    left: 11px;
-    top: 3px;
-}
-
-.arrow_right {
-    position: relative;
-    width: 14px;
-    height: 14px;
-    left: -10px;
-    top: 3px;
 }
 
 a:link {
