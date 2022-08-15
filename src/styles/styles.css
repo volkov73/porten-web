@@ -21,11 +21,10 @@
     width: 14px;
     height: 14px;
     left: -5px;
-    top: 3px;
-    
+    top: 3px;    
 }
 
-.vector-pict {
+.open_door {
     position: relative;
     width: 14px;
     height: 14px;
@@ -33,7 +32,7 @@
     top: 3px;
 }
 
-.vector2-pict {
+.arrow_right {
     position: relative;
     width: 14px;
     height: 14px;
