@@ -51,7 +51,6 @@ body {
     background: black;
     padding-top: 14px;
     padding-bottom: 15px;
-    padding-left: 15%;
     width: 100%;
     color: gray;
     font-size: 12px;
@@ -61,7 +60,8 @@ body {
 
 .left-side {
     display: flex; 
-    justify-content: center; 
+    justify-content: center;
+    margin: auto; 
 }
 
 .right-side {
@@ -84,4 +84,60 @@ body {
 
 .phone-number {
     color: gray;
+}
+
+.second-line {
+    display: flex; 
+    width: 100%;
+    height: 80px;
+    background: #0F0F0F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: gray;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.left-line {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+    padding-left: 20px;
+}
+
+.right-line {
+    display: flex; 
+    justify-content: center;
+    margin: auto;
+}
+
+.logo-porten {
+    width: 104px;
+    height: 49px;
+}
+
+.like {
+    display: flex;
+    justify-content: center;
+    background: #1F1F1F;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.account, .setting {
+    display: flex;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bx-cart, .icon-search {
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 22px;
+    height: 22px;
 }
