@@ -46,6 +46,12 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+:root {
+    --active-navigation-color: #1F1F1F;;
+    --font-color: #969696;
+    --navigation-background-color: #0F0F0F;
+}
+
 .top-line {
     display: flex;
     background: black;
@@ -83,12 +89,6 @@ body {
 
 .phone-number {
     color: var(--font-color);
-}
-
-:root {
-    --active-navigation-color: #1F1F1F;;
-    --font-color: #969696;
-    --navigation-background-color: #0F0F0F;
 }
 
 .navigation {
@@ -162,65 +162,3 @@ body {
     align-items: center;
 }
 
-.main {
-    background: url(/src/assets/images/main-background.svg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.main-logo {
-    background-color: none;
-    align-self: center;
-    height: 250px;
-    width: 250px;
-    border: 4px solid white;
-    margin-bottom: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 110px;
-}
-
-.logo-in-border {
-    display: flex;
-    align-items: center;    
-    width: 185px;
-    height: 86px;
-}
-
-.logo-size {
-    width: 185px;
-    height: 64px;
-}
-
-.line-in-border {
-    width: 179px;
-    padding-bottom: 4%;
-}
-
-.spb-text {
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    color:#ffffff;
-    text-transform: uppercase;
-    padding-bottom: 10%;
-}
-
-.main-text {
-    display: flex;
-    height: 96px;
-    width: 730px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    color:#ffffff;
-    text-transform: uppercase;
-    padding-bottom: 50px;
-}
